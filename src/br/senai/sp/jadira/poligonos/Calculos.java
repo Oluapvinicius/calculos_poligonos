@@ -33,9 +33,7 @@ public class Calculos {
         ta.exibirDados();
         
          
-            Circuferência circ = new Circuferência (5.0);  
-            
-           
+            Circuferência circ = new Circuferência(0);
             circ.exibirDados();
         
         

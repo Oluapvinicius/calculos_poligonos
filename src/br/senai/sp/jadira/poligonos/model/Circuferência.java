@@ -6,7 +6,7 @@ public class Circuferência{
     private final double PI = Math.PI;  
 
     
-    public Circufêrencia(double raio) {
+    public Circuferência(double raio) {
         this.raio = raio;
     }
 
