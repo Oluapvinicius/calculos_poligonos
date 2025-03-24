@@ -3,6 +3,7 @@ package br.senai.sp.jadira.poligonos.dao;
 import java.util.Scanner;
 
 import br.senai.sp.jadira.poligonos.model.Triangulo;
+import br.senai.sp.jadira.poligonos.ui.Menu;
 
 public class TriânguloDao {
 	
@@ -19,6 +20,15 @@ public class TriânguloDao {
 	triangulo.setAltura(leitor.nextDouble());
 	triangulo.setBase(leitor.nextDouble());
 	triangulo.exibirDados();
+	
+	// Perguntar ao usuario se ele deseja criar outra forma
+	System.out.print("Pressione o Enter para continuar...");
+	
+	
+	
+	Menu.retornar();
+	
+	leitor.close();
 	
 	
 	}

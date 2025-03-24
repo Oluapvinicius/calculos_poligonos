@@ -3,6 +3,7 @@ package br.senai.sp.jadira.poligonos.dao;
 import java.util.Scanner;
 
 import br.senai.sp.jadira.poligonos.model.Retângulo;
+import br.senai.sp.jadira.poligonos.ui.Menu;
 
 public class RetanguloDao {
 	
@@ -18,6 +19,11 @@ public class RetanguloDao {
 		
 		retangulo.setLado(leitor.nextDouble());
 		retangulo.exibirDados();
+		
+		Menu.retornar();
+		
+		leitor.close();
+		
 	}
 
 }

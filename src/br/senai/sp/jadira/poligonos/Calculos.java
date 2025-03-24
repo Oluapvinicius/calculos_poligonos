@@ -13,51 +13,34 @@ public class Calculos {
 
     public static void main(String[] args) {
     	
-    	Menu.criarMenu();
-    	System.out.println("Progama finalizado!");
+    	//Menu.criarMenu();
+    	
+    	int contador = 0;
+    	while(contador < 100) {
+    		System.out.println("Tabuada - " + contador);
+    		contador = contador + 1;
+    		System.out.println("");
+    	}
+    	String resposta = "s";
+    	while(resposta.equals("s")) {
+    		System.out.println("Estamos dando voltas");
+    		System.out.println("Gostaria de dar uma volta (s/n)?");
+    		Scanner leitor = new Scanner(System.in);
+    		resposta = leitor.next();
+    		
+    		
+    	}
+    	System.out.println("----------Tabuada do 9------------");
+    	
+    	contador = 1;
+    	while(contador <= 10) {
+    	System.out.println("Tabuada - " + contador);
+		int resultado = 9 * contador;
+		System.out.println("9 x" + contador + " = " + resultado );
+		contador++;
+    	}
     }
 }
     	
-//    	Scanner leitor = new Scanner(System.in);
-//    	
-//    	System.out.println("Digite o valor do lado do quadrado: ");
-//    	double lado = leitor.nextDouble();
-//    	leitor.nextLine();
-//    	
-//    	System.out.println("Qual o seu nome?");
-//    	String nome = leitor.nextLine();
-//    	
-//    	
-//
-//    	System.out.println("Ola, " + nome);
-//    	
-        
-//        Quadrado quadrado1 = new Quadrado();
-//        quadrado1.setLado(lado);
-//        quadrado1.exibirDados();  
-//
-//    
-//        Retângulo r1 = new Retângulo();
-//        r1.setLado(5);  
-//        r1.exibirDados(); 
-//        
-//        
-//        Triangulo triangulo1 = new Triangulo();
-//        triangulo1.setBase(5);  
-//        triangulo1.setAltura(10); 
-//        triangulo1.exibirDados();
-//        
-//        Trapézio ta = new Trapézio();
-//        ta.setBase(2);  
-//        ta.setAltura(11); 
-//        ta.exibirDados();
-//        
-//         
-//        Circuferência circ = new Circuferência(0);
-//        circ.exibirDados();
-//        
-//        
-//    }
-//}
-//
+
 
